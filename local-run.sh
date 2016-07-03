@@ -1,0 +1,3 @@
+#!/bin/sh
+. watson-env.conf
+bin/activator -Dwatson.username="${VCAP_SERVICES_SPEECH_TO_TEXT_0_CREDENTIALS_USERNAME}" -Dwatson.password="${VCAP_SERVICES_SPEECH_TO_TEXT_0_CREDENTIALS_PASSWORD}" -Dwatson.url=${VCAP_SERVICES_SPEECH_TO_TEXT_0_CREDENTIALS_URL}

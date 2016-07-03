@@ -1,0 +1,5 @@
+VCAP_SERVICES_SPEECH_TO_TEXT_0_CREDENTIALS_USERNAME='Watson speech to text username'
+VCAP_SERVICES_SPEECH_TO_TEXT_0_CREDENTIALS_PASSWORD='Watson speech to text password'
+VCAP_SERVICES_SPEECH_TO_TEXT_0_CREDENTIALS_URL='https://stream.watsonplatform.net/speech-to-text/api'
+APP_SECRET='Playframework app secret'
+DOCKER_NS=Bluemix docker name space
